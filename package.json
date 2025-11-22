@@ -1,0 +1,47 @@
+{
+  "name": "devlog-sample",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "jiti ./scripts/dev.ts",
+    "dev:scenario": "jiti ./scripts/buildScenario.ts --watch",
+    "dev:studio": "remotion studio",
+    "lint": "run-s lint:*",
+    "lint:prettier": "prettier --check .",
+    "lint:oxlint": "oxlint --type-aware",
+    "lint:tsgo": "tsgo --noEmit",
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.375",
+    "@remotion/fonts": "^4.0.375",
+    "@remotion/transitions": "4.0.375",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.375",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@prettier/plugin-oxc": "^0.0.4",
+    "@rutan/mnsc": "^0.3.0",
+    "@types/node": "^24.10.1",
+    "@types/react": "19.0.0",
+    "@types/web": "0.0.166",
+    "@typescript/native-preview": "7.0.0-dev.20251113.1",
+    "canvas": "^3.2.0",
+    "chokidar": "^4.0.3",
+    "dotenv": "^17.2.3",
+    "eslint": "9.19.0",
+    "execa": "^9.6.0",
+    "jiti": "^2.6.1",
+    "npm-run-all2": "^8.0.4",
+    "oxlint": "^1.28.0",
+    "oxlint-tsgolint": "^0.6.0",
+    "prettier": "3.6.0",
+    "vitest": "^4.0.8",
+    "yaml": "^2.8.1"
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad"
+}

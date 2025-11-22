@@ -1,0 +1,100 @@
+{
+  "typescript.experimental.useTsgo": true,
+  "mnsc.functions": [
+    {
+      "name": "showUi",
+      "args": []
+    },
+    {
+      "name": "hideUi",
+      "args": []
+    },
+    {
+      "name": "bgm",
+      "positional": [
+        {
+          "name": "path",
+          "type": "string"
+        }
+      ],
+      "named": [
+        {
+          "name": "volume",
+          "type": "number",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "stopBgm",
+      "args": []
+    },
+    {
+      "name": "video",
+      "positional": [
+        {
+          "name": "path",
+          "type": "string"
+        }
+      ],
+      "named": [
+        {
+          "name": "volume",
+          "type": "number",
+          "optional": true
+        },
+        {
+          "name": "layout",
+          "type": "string",
+          "optional": true
+        },
+        {
+          "name": "transition",
+          "type": "string",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "name": "image",
+      "positional": [
+        {
+          "name": "path",
+          "type": "string"
+        }
+      ],
+      "named": [
+        {
+          "name": "layout",
+          "type": "string",
+          "optional": true
+        },
+        {
+          "name": "transition",
+          "type": "string",
+          "optional": true
+        }
+      ]
+    }
+  ],
+  "mnsc.characters": [
+    {
+      "name": "rutan",
+      "faces": [
+        "awawa",
+        "normal"
+      ]
+    }
+  ],
+  "mnsc.generateIds.onSave": true,
+  "mnsc.generateIds.format": "uuid",
+  "mnsc.diagnostics.warnUnknownFunctions": true,
+  "mnsc.diagnostics.warnUnknownCharacters": true,
+  "mnsc.diagnostics.warnUnknownFaces": true,
+  "mnsc.diagnostics.validateFrontMatter": false,
+  "cSpell.words": [
+    "awawa",
+    "Offthread",
+    "Voicepeak"
+  ]
+}

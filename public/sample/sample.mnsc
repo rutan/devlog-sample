@@ -1,0 +1,33 @@
+---
+title:
+  text: "Remotionで作る動画\n～サンプル編～"
+  fontSize: 100
+category: '動画制作'
+voice:
+  narrator: 'Japanese Female 1'
+  speed: 120
+  pitch: 25
+---
+
+// BGMなども流せます
+// <<bgm('resources/bgm.ogg', volume: 0.2)>>
+
+<<image('resources/sample1.png', layout: 'contain')>>
+
+// 動画の挿入も可能
+// <<video('resources/video.mp4', layout: 'contain', volume: 0.2)>>
+
+#id:d27b7f5c-0383-4a62-a606-972b9d1d0f6a
+rutan: face: 'normal'
+  [t=1.5]やぁやぁ[talk=""]、[/talk]こんにちは。
+
+<<image('resources/sample2.png', layout: 'contain', transition: 'slide')>>
+
+#id:4b3830a3-3f21-433f-aef1-c7c064d79099
+rutan: face: 'awawa'
+  [t=1.5]これは動画サンプルだよ
+  [t=1.8]スクリプトから動画生成するやつ
+
+#id:4f8e2582-a41b-481c-ae8c-c3575cd7dde5
+rutan: face: 'normal'
+  [t=3.0]では、また次回ですっ！
