@@ -5,6 +5,9 @@
 Remotion を利用した devlog サンプルプロジェクトです。
 [実際に使っているもの](https://www.youtube.com/@RutanDayo/shorts) の一部を切り出してサンプル化しています。
 
+## 記事
+https://qiita.com/rutan/items/8609e04430237c0967cc
+
 ## 実行方法
 
 ```bash
